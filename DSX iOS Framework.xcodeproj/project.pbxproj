@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		606FA0C5145EA10000AA487D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 606FA0C4145EA10000AA487D /* Foundation.framework */; };
+		606FA0CB145EA10000AA487D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 606FA0C9145EA10000AA487D /* InfoPlist.strings */; };
+		606FA0DF145EA1D500AA487D /* DSXConnector.h in Headers */ = {isa = PBXBuildFile; fileRef = 606FA0D5145EA1D500AA487D /* DSXConnector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		606FA0E0145EA1D500AA487D /* DSXConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 606FA0D6145EA1D500AA487D /* DSXConnector.m */; };
+		606FA0E3145EA1D500AA487D /* DSXContestsConnector.h in Headers */ = {isa = PBXBuildFile; fileRef = 606FA0D9145EA1D500AA487D /* DSXContestsConnector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		606FA0E4145EA1D500AA487D /* DSXContestsConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 606FA0DA145EA1D500AA487D /* DSXContestsConnector.m */; };
+		606FA0E5145EA1D500AA487D /* DSXDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 606FA0DB145EA1D500AA487D /* DSXDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		606FA0E6145EA1D500AA487D /* DSXDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 606FA0DC145EA1D500AA487D /* DSXDownloader.m */; };
+		606FA0E7145EA1D500AA487D /* DSXFlightsConnector.h in Headers */ = {isa = PBXBuildFile; fileRef = 606FA0DD145EA1D500AA487D /* DSXFlightsConnector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		606FA0E8145EA1D500AA487D /* DSXFlightsConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 606FA0DE145EA1D500AA487D /* DSXFlightsConnector.m */; };
+		606FA0ED145EA1DD00AA487D /* DSXDay.h in Headers */ = {isa = PBXBuildFile; fileRef = 606FA0E9145EA1DD00AA487D /* DSXDay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		606FA0EE145EA1DD00AA487D /* DSXDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 606FA0EA145EA1DD00AA487D /* DSXDay.m */; };
+		606FA0EF145EA1DD00AA487D /* DSXFlight.h in Headers */ = {isa = PBXBuildFile; fileRef = 606FA0EB145EA1DD00AA487D /* DSXFlight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		606FA0F0145EA1DD00AA487D /* DSXFlight.m in Sources */ = {isa = PBXBuildFile; fileRef = 606FA0EC145EA1DD00AA487D /* DSXFlight.m */; };
+		606FA0F4145EA26700AA487D /* DSXContest.h in Headers */ = {isa = PBXBuildFile; fileRef = 606FA0F2145EA26600AA487D /* DSXContest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		606FA0F5145EA26700AA487D /* DSXContest.m in Sources */ = {isa = PBXBuildFile; fileRef = 606FA0F3145EA26600AA487D /* DSXContest.m */; };
+		606FA0FE145EA28600AA487D /* NSDate+DSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 606FA0F6145EA28600AA487D /* NSDate+DSX.h */; settings = {ATTRIBUTES = (); }; };
+		606FA0FF145EA28600AA487D /* NSDate+DSX.m in Sources */ = {isa = PBXBuildFile; fileRef = 606FA0F7145EA28600AA487D /* NSDate+DSX.m */; };
+		606FA102145EA28600AA487D /* NSString+DSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 606FA0FA145EA28600AA487D /* NSString+DSX.h */; settings = {ATTRIBUTES = (); }; };
+		606FA103145EA28600AA487D /* NSString+DSX.m in Sources */ = {isa = PBXBuildFile; fileRef = 606FA0FB145EA28600AA487D /* NSString+DSX.m */; };
+		606FA114145EA46B00AA487D /* NSDictionary+DSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 606FA112145EA46A00AA487D /* NSDictionary+DSX.h */; settings = {ATTRIBUTES = (); }; };
+		606FA115145EA46B00AA487D /* NSDictionary+DSX.m in Sources */ = {isa = PBXBuildFile; fileRef = 606FA113145EA46A00AA487D /* NSDictionary+DSX.m */; };
+		606FA118145EA5BF00AA487D /* DSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 606FA116145EA5BE00AA487D /* DSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		606FA0C1145EA10000AA487D /* DSX iOS Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = "DSX iOS Framework.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		606FA0C4145EA10000AA487D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		606FA0C8145EA10000AA487D /* DSX iOS Framework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DSX iOS Framework-Info.plist"; sourceTree = "<group>"; };
+		606FA0CA145EA10000AA487D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		606FA0CC145EA10000AA487D /* DSX iOS Framework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DSX iOS Framework-Prefix.pch"; sourceTree = "<group>"; };
+		606FA0D5145EA1D500AA487D /* DSXConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSXConnector.h; path = Connectors/DSXConnector.h; sourceTree = "<group>"; };
+		606FA0D6145EA1D500AA487D /* DSXConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSXConnector.m; path = Connectors/DSXConnector.m; sourceTree = "<group>"; };
+		606FA0D9145EA1D500AA487D /* DSXContestsConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSXContestsConnector.h; path = Connectors/DSXContestsConnector.h; sourceTree = "<group>"; };
+		606FA0DA145EA1D500AA487D /* DSXContestsConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSXContestsConnector.m; path = Connectors/DSXContestsConnector.m; sourceTree = "<group>"; };
+		606FA0DB145EA1D500AA487D /* DSXDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSXDownloader.h; path = Connectors/DSXDownloader.h; sourceTree = "<group>"; };
+		606FA0DC145EA1D500AA487D /* DSXDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSXDownloader.m; path = Connectors/DSXDownloader.m; sourceTree = "<group>"; };
+		606FA0DD145EA1D500AA487D /* DSXFlightsConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSXFlightsConnector.h; path = Connectors/DSXFlightsConnector.h; sourceTree = "<group>"; };
+		606FA0DE145EA1D500AA487D /* DSXFlightsConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSXFlightsConnector.m; path = Connectors/DSXFlightsConnector.m; sourceTree = "<group>"; };
+		606FA0E9145EA1DD00AA487D /* DSXDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSXDay.h; path = Models/DSXDay.h; sourceTree = "<group>"; };
+		606FA0EA145EA1DD00AA487D /* DSXDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSXDay.m; path = Models/DSXDay.m; sourceTree = "<group>"; };
+		606FA0EB145EA1DD00AA487D /* DSXFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSXFlight.h; path = Models/DSXFlight.h; sourceTree = "<group>"; };
+		606FA0EC145EA1DD00AA487D /* DSXFlight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSXFlight.m; path = Models/DSXFlight.m; sourceTree = "<group>"; };
+		606FA0F2145EA26600AA487D /* DSXContest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSXContest.h; path = Models/DSXContest.h; sourceTree = "<group>"; };
+		606FA0F3145EA26600AA487D /* DSXContest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSXContest.m; path = Models/DSXContest.m; sourceTree = "<group>"; };
+		606FA0F6145EA28600AA487D /* NSDate+DSX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+DSX.h"; path = "Categories/NSDate+DSX.h"; sourceTree = "<group>"; };
+		606FA0F7145EA28600AA487D /* NSDate+DSX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+DSX.m"; path = "Categories/NSDate+DSX.m"; sourceTree = "<group>"; };
+		606FA0FA145EA28600AA487D /* NSString+DSX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+DSX.h"; path = "Categories/NSString+DSX.h"; sourceTree = "<group>"; };
+		606FA0FB145EA28600AA487D /* NSString+DSX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+DSX.m"; path = "Categories/NSString+DSX.m"; sourceTree = "<group>"; };
+		606FA112145EA46A00AA487D /* NSDictionary+DSX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+DSX.h"; path = "Categories/NSDictionary+DSX.h"; sourceTree = "<group>"; };
+		606FA113145EA46A00AA487D /* NSDictionary+DSX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+DSX.m"; path = "Categories/NSDictionary+DSX.m"; sourceTree = "<group>"; };
+		606FA116145EA5BE00AA487D /* DSX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSX.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		606FA0BC145EA10000AA487D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606FA0C5145EA10000AA487D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		606FA0B3145EA0FF00AA487D = {
+			isa = PBXGroup;
+			children = (
+				606FA0C6145EA10000AA487D /* DSX iOS Framework */,
+				606FA0C3145EA10000AA487D /* Frameworks */,
+				606FA0C2145EA10000AA487D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		606FA0C2145EA10000AA487D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				606FA0C1145EA10000AA487D /* DSX iOS Framework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		606FA0C3145EA10000AA487D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				606FA0C4145EA10000AA487D /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		606FA0C6145EA10000AA487D /* DSX iOS Framework */ = {
+			isa = PBXGroup;
+			children = (
+				606FA116145EA5BE00AA487D /* DSX.h */,
+				606FA0D4145EA16100AA487D /* Connectors */,
+				606FA0D3145EA15200AA487D /* Models */,
+				606FA0D2145EA14500AA487D /* Categories */,
+				606FA0C7145EA10000AA487D /* Supporting Files */,
+			);
+			path = "DSX iOS Framework";
+			sourceTree = "<group>";
+		};
+		606FA0C7145EA10000AA487D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				606FA0C8145EA10000AA487D /* DSX iOS Framework-Info.plist */,
+				606FA0C9145EA10000AA487D /* InfoPlist.strings */,
+				606FA0CC145EA10000AA487D /* DSX iOS Framework-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		606FA0D2145EA14500AA487D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				606FA112145EA46A00AA487D /* NSDictionary+DSX.h */,
+				606FA113145EA46A00AA487D /* NSDictionary+DSX.m */,
+				606FA0F6145EA28600AA487D /* NSDate+DSX.h */,
+				606FA0F7145EA28600AA487D /* NSDate+DSX.m */,
+				606FA0FA145EA28600AA487D /* NSString+DSX.h */,
+				606FA0FB145EA28600AA487D /* NSString+DSX.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		606FA0D3145EA15200AA487D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				606FA0F2145EA26600AA487D /* DSXContest.h */,
+				606FA0F3145EA26600AA487D /* DSXContest.m */,
+				606FA0E9145EA1DD00AA487D /* DSXDay.h */,
+				606FA0EA145EA1DD00AA487D /* DSXDay.m */,
+				606FA0EB145EA1DD00AA487D /* DSXFlight.h */,
+				606FA0EC145EA1DD00AA487D /* DSXFlight.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		606FA0D4145EA16100AA487D /* Connectors */ = {
+			isa = PBXGroup;
+			children = (
+				606FA0D5145EA1D500AA487D /* DSXConnector.h */,
+				606FA0D6145EA1D500AA487D /* DSXConnector.m */,
+				606FA0D9145EA1D500AA487D /* DSXContestsConnector.h */,
+				606FA0DA145EA1D500AA487D /* DSXContestsConnector.m */,
+				606FA0DD145EA1D500AA487D /* DSXFlightsConnector.h */,
+				606FA0DE145EA1D500AA487D /* DSXFlightsConnector.m */,
+				606FA0DB145EA1D500AA487D /* DSXDownloader.h */,
+				606FA0DC145EA1D500AA487D /* DSXDownloader.m */,
+			);
+			name = Connectors;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		606FA0BD145EA10000AA487D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606FA0DF145EA1D500AA487D /* DSXConnector.h in Headers */,
+				606FA118145EA5BF00AA487D /* DSX.h in Headers */,
+				606FA0E5145EA1D500AA487D /* DSXDownloader.h in Headers */,
+				606FA0E3145EA1D500AA487D /* DSXContestsConnector.h in Headers */,
+				606FA0EF145EA1DD00AA487D /* DSXFlight.h in Headers */,
+				606FA0ED145EA1DD00AA487D /* DSXDay.h in Headers */,
+				606FA0F4145EA26700AA487D /* DSXContest.h in Headers */,
+				606FA0E7145EA1D500AA487D /* DSXFlightsConnector.h in Headers */,
+				606FA0FE145EA28600AA487D /* NSDate+DSX.h in Headers */,
+				606FA102145EA28600AA487D /* NSString+DSX.h in Headers */,
+				606FA114145EA46B00AA487D /* NSDictionary+DSX.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		606FA0C0145EA10000AA487D /* DSX iOS Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 606FA0CF145EA10000AA487D /* Build configuration list for PBXNativeTarget "DSX iOS Framework" */;
+			buildPhases = (
+				606FA0BA145EA10000AA487D /* ShellScript */,
+				606FA0BB145EA10000AA487D /* Sources */,
+				606FA0BC145EA10000AA487D /* Frameworks */,
+				606FA0BD145EA10000AA487D /* Headers */,
+				606FA0BE145EA10000AA487D /* Resources */,
+				606FA0BF145EA10000AA487D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DSX iOS Framework";
+			productName = "DSX iOS Framework";
+			productReference = 606FA0C1145EA10000AA487D /* DSX iOS Framework.framework */;
+			productType = "com.apple.product-type.framework.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		606FA0B5145EA0FF00AA487D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = 10to1;
+			};
+			buildConfigurationList = 606FA0B8145EA0FF00AA487D /* Build configuration list for PBXProject "DSX iOS Framework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 606FA0B3145EA0FF00AA487D;
+			productRefGroup = 606FA0C2145EA10000AA487D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				606FA0C0145EA10000AA487D /* DSX iOS Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		606FA0BE145EA10000AA487D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606FA0CB145EA10000AA487D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		606FA0BA145EA10000AA487D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n\tUFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version  from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n  ([[ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]] || \\\n    ([[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n     [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n     [[ ! \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\n    )\n  )\nthen\n    exit 0\nfi\n\n\n# Clean other platform if needed\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n\techo \"Platform \\\"$UFW_SDK_PLATFORM\\\" was cleaned recently. Cleaning \\\"$UFW_OTHER_PLATFORM\\\" as well\"\n\techo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\n\txcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\nfi\n\n\n# Make sure we are building from fresh binaries\n\nrm -rf \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\n\nif [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nfi\n";
+		};
+		606FA0BF145EA10000AA487D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\nexport UFW_MASTER_SCRIPT_RUNNING=1\n\n\n# Functions\n\n## List files in the specified directory, storing to the specified array.\n#\n# @param $1 The path to list\n# @param $2 The name of the array to fill\n#\n##\nlist_files ()\n{\n    filelist=$(ls \"$1\")\n    while read line\n    do\n        eval \"$2[\\${#$2[*]}]=\\\"\\$line\\\"\"\n    done <<< \"$filelist\"\n}\n\n\n# Sanity check\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n    echo \"Framework target \\\"${TARGET_NAME}\\\" had no source files to build from. Make sure your source files have the correct target membership\"\n    exit 1\nfi\n\n\n# Gather information\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n    UFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date.\n# We already checked the other platform in the prerun script.\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]\nthen\n    echo \"ONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM}: Skipping other platform build\"\nelse\n    # Make sure the other platform gets built\n    \n    echo \"Build other platform\"\n    \n    echo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    \n    \n    # Build the fat static library binary\n    \n    echo \"Create universal static library\"\n    \n    echo \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \n    echo mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nfi\n\n# Build embedded framework structure\n\necho \"Build Embedded Framework\"\n\necho rm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\necho mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\necho cp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\ncp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\n\ndeclare -a UFW_FILE_LIST\nlist_files \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\" UFW_FILE_LIST\nfor filename in \"${UFW_FILE_LIST[@]}\"\ndo\n    if [[ \"${filename}\" != \"Info.plist\" ]] && [[ ! \"${filename}\" =~ .*\\.lproj$ ]]\n    then\n        echo ln -sf \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n        ln -sf \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n    fi\ndone\n\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]\nthen\n    # Replace other platform's framework with a copy of this one (so that both have the same universal binary)\n    \n    echo \"Copy from $UFW_SDK_PLATFORM to $UFW_OTHER_PLATFORM\"\n    \n    echo rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    echo cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		606FA0BB145EA10000AA487D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606FA0E0145EA1D500AA487D /* DSXConnector.m in Sources */,
+				606FA0E4145EA1D500AA487D /* DSXContestsConnector.m in Sources */,
+				606FA0E6145EA1D500AA487D /* DSXDownloader.m in Sources */,
+				606FA0E8145EA1D500AA487D /* DSXFlightsConnector.m in Sources */,
+				606FA0EE145EA1DD00AA487D /* DSXDay.m in Sources */,
+				606FA0F0145EA1DD00AA487D /* DSXFlight.m in Sources */,
+				606FA0F5145EA26700AA487D /* DSXContest.m in Sources */,
+				606FA0FF145EA28600AA487D /* NSDate+DSX.m in Sources */,
+				606FA103145EA28600AA487D /* NSString+DSX.m in Sources */,
+				606FA115145EA46B00AA487D /* NSDictionary+DSX.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		606FA0C9145EA10000AA487D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				606FA0CA145EA10000AA487D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		606FA0CD145EA10000AA487D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		606FA0CE145EA10000AA487D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		606FA0D0145EA10000AA487D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSX iOS Framework/DSX iOS Framework-Prefix.pch";
+				INFOPLIST_FILE = "DSX iOS Framework/DSX iOS Framework-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		606FA0D1145EA10000AA487D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSX iOS Framework/DSX iOS Framework-Prefix.pch";
+				INFOPLIST_FILE = "DSX iOS Framework/DSX iOS Framework-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		606FA0B8145EA0FF00AA487D /* Build configuration list for PBXProject "DSX iOS Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				606FA0CD145EA10000AA487D /* Debug */,
+				606FA0CE145EA10000AA487D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		606FA0CF145EA10000AA487D /* Build configuration list for PBXNativeTarget "DSX iOS Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				606FA0D0145EA10000AA487D /* Debug */,
+				606FA0D1145EA10000AA487D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 606FA0B5145EA0FF00AA487D /* Project object */;
+}
